@@ -741,23 +741,24 @@ column-gap: 5vh;
 .child102{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    border-radius: 12px 12px 0px 0px;
+    border: 1px solid gray;
+    border-radius: 12px 12px 12px 12px;
     row-gap: 2vh;
+    padding-bottom: 3vh;
 }
 .subchild102{
     background-image: url(./Naukri.img/Capegemini.jpeg);
     background-repeat: no-repeat;
     width: 20.55vw;
-    height: 10.4vh;
+    height: 11.4vh;
   border-radius: 10px 10px 0px 0px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
  
 }
 .subsubchild102{
     background-color: hsla(0, 0%, 0%, 0.5);
     width: 20.55vw;
-    height: 10.45vh;
+    height: 11.45vh;
     border-radius: 10px;
     
 }
@@ -837,15 +838,22 @@ column-gap: 1.2vw;
  .subchild1034{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
  }
  .subchild1034>button{
     align-content: center;
     border-radius: 10px;
     background-color: white;
     border: 1px solid gray;
+    cursor: pointer;
  }
- .sub1034{
+ .sub-1034{
     align-content: center;
-    hi
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 114, 246);
  }
- 
+ #subchild104{
+    background-image: url(./Naukri.img/Together.2.png);
+ }

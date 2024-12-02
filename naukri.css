@@ -737,15 +737,22 @@ column-gap: 5vh;
     flex-direction: column;
     row-gap: 3vh;
 }
-
+/*Child-102*/
+.child102{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px 12px 0px 0px;
+    row-gap: 2vh;
+}
 .subchild102{
-    background-image: url(./Naukri.img/Banner-1\(new\).jpg);
+    background-image: url(./Naukri.img/Capegemini.jpeg);
     background-repeat: no-repeat;
     width: 20.55vw;
-    height: 15vh;
-  border-radius: 10px;
+    height: 10.4vh;
+  border-radius: 10px 10px 0px 0px;
   border: 1px solid black;
-  border-radius: 10px;
+ 
 }
 .subsubchild102{
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -776,3 +783,69 @@ column-gap: 5vh;
     margin-right: 2vh;
     
 }
+
+.subchild103{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+.subsubchild1031{
+display: flex;
+flex-direction: row;
+padding-left: 1.0vw;
+column-gap: 1.2vw;   
+}
+.button1031{
+    font-size: 1.0em;
+    border-radius: 10px;
+    background-color: white;
+    border:1px solid gray ;
+    padding: 10px;  
+    cursor: pointer;
+}
+.subsubchild1032{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+ }
+ .subsubchild1033{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    column-gap: 1vw;
+    padding-bottom: 15px;
+    border-bottom:3px dotted gray ;
+   margin-left: 1vw;
+   margin-right: 1vw;
+ }
+ .cape-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.3vw;
+ }
+ .calender{
+    height: 2.5vh;
+    opacity: 0.8;
+ }
+ .cape-1-sub{
+    align-content: center;
+   height: 3vh;
+   opacity: 0.5;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .subchild1034{
+    display: flex;
+    flex-direction: row;
+ }
+ .subchild1034>button{
+    align-content: center;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid gray;
+ }
+ .sub1034{
+    align-content: center;
+    hi
+ }
+ 

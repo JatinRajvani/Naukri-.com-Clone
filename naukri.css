@@ -857,3 +857,85 @@ column-gap: 1.2vw;
  #subchild104{
     background-image: url(./Naukri.img/Together.2.png);
  }
+
+ /*SubParent-11*/
+ .Parent11{
+    margin-top: 15vh;
+ }
+ .subparent11{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient( white , #FFF4E9 50%  );
+    margin: auto;
+    width: 71vw;
+    border-radius: 10px;
+    border: 2px solid #FFF4E9 ;
+ }
+ .child111{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    margin-left: 1.5vw;
+}
+ .ambition{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(239, 237, 255);
+    border-radius: 0px 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+ }
+.interview11{
+width:14vw;
+}
+.child112{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    border: 1px solid black;
+    margin-top: -7vh;
+    margin-bottom: -7vh;
+    width: 20vw;
+    padding-left: 1.0vw;
+    justify-content: space-around;
+    padding-right: 1vw;
+    background-color: white;
+    
+}
+.subchild1122{
+    display: grid;
+    grid-template-columns: 10vw auto;
+    row-gap: 5vh;
+    column-gap: -5vw;
+    justify-content: space-around;
+    padding-top: 5vh;
+}
+.mainbutton{
+    width: fit-content;
+}
+.button1{
+    display: flex;
+    flex-direction: row;
+    width: 9vw;
+    column-gap: .4vw;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.button1>img{
+    height: 6vh;
+}
+.amrev{
+    
+    align-content: center;
+    height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.amrev1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
